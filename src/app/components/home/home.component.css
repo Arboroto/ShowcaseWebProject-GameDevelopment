@@ -1,0 +1,76 @@
+.containerBackgroundColor{
+    background-color: #f6f4e6;
+    padding: 0% 5% 2% 5%;
+    margin-top: 10px;
+   
+}
+
+.headerBackgroundColor{
+    background-color: #f6f4e600;
+    padding: 0% 5% 2% 5%;
+    margin-top: 10px;
+   
+}
+
+.rrssIcons{
+    width: 40px;
+    align-items: center;    
+}
+
+.iconCol{
+    width: 50%;
+    border-style: solid 1px black;
+    justify-content: start;
+}
+
+.imgIcon{    
+    max-width: 50px;
+    min-width: 35px;
+    width: 50%;
+    display: block;
+    border-radius: 50%;
+}
+
+.imgIconRrss{
+    max-width: 50px;
+    min-width: 35px;
+    width: 50%;
+    display: block;    
+}
+
+.row{
+    margin-top: 1px;
+    justify-content: center;
+}
+
+.column{
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.card{
+    background-color: #f6f4e6;
+    margin-top: 10px;
+}
+
+.usersTopImg{
+    object-fit: cover;
+    max-height: 50px;
+    object-position: center;
+    filter: drop-shadow(50%);
+}
+
+.imgOverlayCustom{
+    background-color:#fddc3a73;
+}
+
+.imgOverlayCustom:hover{
+    transition: background-color .5s;
+    background-color: rgba(255, 255, 255, 0.445);
+}
+
+.imgOverlayTable{
+ text-align: center;
+}
+

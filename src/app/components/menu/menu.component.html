@@ -1,0 +1,81 @@
+
+<!-- Navbar  class="sticky-top" para que se quede pegado arriba sin padding tocando las pelotas -->
+<div class="cover">
+  <div class="radientBG">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background: #41444b;">
+  
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" (click)="Navigate(home)">Home</a>
+        </li>
+
+        <li>
+          <a class="nav-link" (click)="Navigate(portfolio)">Portfolio</a>
+        </li>
+
+      </ul>
+    </div>
+
+
+    <div class="navbar-brand" (click)="Navigate(home)">
+      <img src="../../../assets/iconGO.png" style="width: 50px;">
+    </div>
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+    
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" (click)="Navigate(equipo)">Equipo</a>
+            </li>
+            <li class="vertical-line">
+                <a class="nav-link" (click)="Navigate(contacto)">Contacto</a>
+            </li>
+        </ul>                
+    </div>
+  </nav>
+
+  <!-- 
+  <div class="sections">
+    <div #home class="container">
+          <h3>Home</h3>
+    </div>
+    <div #about class="container">
+          <h3>About</h3>
+    </div>
+    <div #contact class="container">
+          <h3>Contact</h3>
+    </div>
+  </div> 
+  -->
+  <div class="container">
+    <div class="sections">
+      <div #home class="container-fluid backgroundImage">
+        <app-home></app-home>
+      </div>
+
+      <div #portfolio class="container-fluid">
+      <app-portfolio></app-portfolio>
+      </div>
+
+      <div #equipo class="container-fluid">
+        <app-equipo></app-equipo>
+      </div>
+
+      <div #contacto class="container-fluid">
+        <app-contacto></app-contacto>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer> 
+</div>
+</div>
+
+ 

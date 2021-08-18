@@ -1,0 +1,130 @@
+<!-- Si no pones contaier o container-fluid y utilizas el row, se te va a ir la maquetacion-->
+
+    <!--
+    <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/polygon-art-elyse-dodge-interview-3.jpg"
+                  alt="Responsive image" width="100%">-->
+
+  <div class="headerBackgroundColor">
+
+          <div style="text-align: center;">
+            <img src="../../../assets/iconGO.png" style="width: 100px;">
+          </div>
+
+          <div class="row">
+                <div class="col-center">
+                  <h3 class="text-white">Game development.</h3>
+                </div>
+          </div>
+
+          <div class="row">
+            <div class="col-4 d-flex align-items-center justify-content-center">
+              <div >
+                <a href="#">
+
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4"></div>
+
+            <div class="col-4 d-flex align-items-center justify-content-center">
+              <div>
+                <a href="#">
+
+                </a>
+              </div>
+            </div>
+          </div>
+  </div>
+
+
+ <div class="row">
+  <div class="col-md-6">
+    <div style="padding: 5px;"></div>
+    <div class="card">
+          <img class="card-img-top" src="../../../assets/voiddie2.PNG">
+        <div class="card-body containerBackgroundColor">
+          <h5 class="card-title">VOID DIE</h5>
+          <p class="card-text" >Void Die es un juego diseñado para móviles (Android)
+          en el que controlas a un pobre hombre que se ha visto envuelto en una situación
+          peliaguda: Estás encerrado en una pequeña ciudad con una horda infinita de no muertos.
+          No parece un futuro muy prometedor...</p>
+        </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img" src="../../../assets/next%20step.PNG">
+    <div class="card-img-overlay imgOverlayCustom">
+      <h5 class="card-title">Modo SUPERVIVENCIA.</h5>
+      <p class="card-text">El modo supervivencia consiste en sobrevivir en el medio de la forma que puedas, con los medios que tengas. Mueres por cualquier cosa.
+      Si mueres, comienzas desde 0. (En desarrollo)</p>
+    </div>
+
+    </div>
+
+    <div class="card">
+      <img class="card-img" src="../../../assets/4playerMode.PNG">
+    <div class="card-img-overlay imgOverlayCustom">
+      <h5 class="card-title">Horda 4 jugadores</h5>
+      <p class="card-text">Juega con tus amigos en modo Horda y sobrevive a todas las rondas que puedas. (En desarrollo).</p>
+    </div>
+    </div>
+
+</div>
+
+  <div class="col-md-6">
+    <div style="padding: 5px;"></div>
+  <div class="card">
+    <img class="card-img-top usersTopImg" src="../../../assets/voiddie2.PNG">
+    <div class="card-img-overlay imgOverlayTable">
+      <h3>Clasificación de jugadores. </h3>
+    </div>
+
+    <div class="card-body">
+      <!-- INDEX -->
+      <div class="row no-gutters">
+        <div class="col-2 iconCol">
+        </div>
+        <div class="col-3 d-flex align-items-center justify-content-center">
+          <p>Username</p>
+        </div>
+        <div class="col-1 d-flex align-items-center justify-content-center">
+          <p>Rounds</p>
+        </div>
+        <div class="col-3 d-flex align-items-center justify-content-center" >
+        <p>Points</p>
+        </div>
+        <div class="col-3 align-middle d-flex align-items-center justify-content-center">
+        <p>Time</p>
+        </div>
+      </div>
+      <!-- FOR TABLE -->
+          <div *ngFor="let user of users; let i = index">
+            <div *ngIf="i<13">
+              <div class="row no-gutters">
+                <div class="col-2 iconCol">
+                  <img class="imgIcon" src={{user.img}}>
+                </div>
+                <div class="col-3 d-flex align-items-center justify-content-center">
+                  <p>{{user.username}}</p>
+                </div>
+                <div class="col-1 d-flex align-items-center justify-content-center">
+                  <p>{{user.rounds}}</p>
+                </div>
+                <div class="col-3 d-flex align-items-center justify-content-center" >
+                <p>{{user.points}}</p>
+                </div>
+                <div class="col-3 align-middle d-flex align-items-center justify-content-center">
+                <p>{{user.time}}</p>
+                </div>
+              </div>
+            <div *ngIf="i<12">
+              <hr>
+            </div>
+
+            </div>
+          </div>
+    </div>
+  </div>
+ </div>
+

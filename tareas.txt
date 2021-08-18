@@ -1,0 +1,6 @@
+Formulario funcional y con validacion
+poner operativo firebase
+hacer servicio que apunte a firebase
+atributos: verificacion google - username - max.puntuación.
+
+node emailer: https://medium.com/@andydev404/enviando-e-mail-desde-angular-con-node-js-e9c2db57af57

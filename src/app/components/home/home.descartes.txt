@@ -1,0 +1,10 @@
+<!-- particularidad con los floats  (no tipo de dato, si no FLOTANTE) -->
+          <div class="float-right"> <!-- parece ser q no funciona con imagenes-->
+          
+          </div>
+
+     <!-- Ocurre con los floats, que se quedan flotando, y todo el contenido de abajo 
+          es arrastrado hacia arriba para ocupar el espacio que ocuparia-->
+
+        <!-- para resolver esto, utilizamos la clase CLEARFIX -->
+          <div class="clearfix"></div>

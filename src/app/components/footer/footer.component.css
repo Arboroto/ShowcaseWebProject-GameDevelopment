@@ -1,0 +1,18 @@
+
+  footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 4px;
+    }
+  
+  li {display: inline;}
+  
+    .imgIconRrss{
+      max-width: 50px;
+      min-width: 35px;
+      width: 50%;
+      display: block;
+      
+  }

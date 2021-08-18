@@ -1,0 +1,59 @@
+.backgroundImage{
+    background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2019/09/polygon-art-elyse-dodge-interview-3.jpg);
+    background-color: #fddb3a;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 2cm 5% 5% 5%;
+}
+
+a:hover{
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  a {
+   
+    transition: font-size .5s;
+    border-radius: 10%;
+  }
+
+  .navbar-brand{
+    transition: font-size .5s;
+  }
+
+  .navbar-brand:hover{
+    font-size: 2em;
+    size: 40%;
+    cursor: pointer;
+  }
+  
+  .nav-item{
+    margin-right: 150px;
+  }
+
+  .container{
+    max-width: 1500px; 
+    
+  }
+
+  .container-fluid{
+    animation: fadeIn 3s;
+  }
+
+  .radientBG{
+    background: #f6f4e6;
+    background: linear-gradient(180deg, #f6f4e6 30%, #f6f4e665 75%, #f6f4e61e 100%);
+  }
+  .cover{
+    background:#fddb3a;
+    background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2019/09/polygon-art-elyse-dodge-interview-3.jpg);
+    background-color: #fddb3a;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }

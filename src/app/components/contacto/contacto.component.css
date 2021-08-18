@@ -1,0 +1,48 @@
+.contacta:hover{
+    clip-path: circle(201.5% at 100% 100%);
+}
+
+.contacta{
+    clip-path: circle(21% at 95% 5%);
+    transition: clip-path 2s;
+   
+}
+
+.campos{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.containerButtonOpenType{
+    background: #fddb3a;
+    color: black;
+}
+
+.hoverPadding{
+    padding-top: 20%;
+    padding-left: 10%;
+}
+
+.formStyle:hover{
+    background-color:#f6f4e6;
+}
+
+.formStyle{
+    background-color: #f6f4e6;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    transition: background-color .3s;
+}
+
+.buttonOpenType{
+    width: 130%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    animation: flash 4s infinite; /* referring directly to the animation's @keyframe declaration */
+}
+
+.row{
+    margin-top: 2px;
+}

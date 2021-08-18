@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "clasificacionv1": {
+      "hosting": {
+        "showcaseWeb": [
+          "clasificacionv1"
+        ]
+      }
+    }
+  }
+}

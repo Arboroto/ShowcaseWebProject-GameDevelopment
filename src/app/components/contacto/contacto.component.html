@@ -1,0 +1,50 @@
+<!-- NODEMAILER, te permite tener servicio de mailing desde localhost -->
+
+<div class="row contacta">
+    <div class="col-9 formStyle">
+        <form #form="ngForm" name="form">
+            <div>
+                <h6> Formulario de contacto: </h6>
+            </div>
+
+                <div class="form-group" style="text-align: center;">
+                    <input class="form-control" style="width:80%;" placeholder="Introduce tu nombre." type="text" id="name" 
+                            name="name" ngModel/>
+                </div>
+
+                <div class="campos form-group" style="text-align: center;">  
+                    <input class="form-control" style="width:80%;" placeholder="Correo de contacto." type="text" id="senderEmail" 
+                            name="senderEmail" ngModel/>
+                </div>
+
+                <div class="campos form-group" style="text-align: center;">
+                    <input class="form-control" style="width:80%;" placeholder="Número de contacto." type="text" id="number" 
+                            name="number" ngModel/>
+                </div>
+
+                <div class="form-group" style="text-align: center;">
+                    <textarea class="form-control" type="text" name="message" id="message" style="width:80%;"
+                     rows="8" placeholder="¿Qué querías comentarme?" ngModel></textarea>
+                </div>
+
+                <button class="btn btn-success btn-sm" type="submit">Enviar</button>
+
+        </form>
+    </div>
+
+    <div class="col-3 containerButtonOpenType">
+        <div class="row">
+            
+            <div class="col-2  col-sm-3 col-md-4"></div>
+
+            <div class="col-10 col-sm-6 ">
+                <div>
+                    <img class="buttonOpenType" src="../../../assets/angular-navigation-scrollintoview-smooth - StackBlitz.png">
+                </div>
+            </div>
+  
+            <div class="col-sm-1"></div>
+
+        </div>
+    </div>
+</div>
